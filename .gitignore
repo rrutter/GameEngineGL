@@ -1,0 +1,14 @@
+
+.DS_Store
+
+*.o
+
+bin/Debug/GameEngine
+
+bin/Debug/helloworld.png
+
+bin/Release/GameEngine
+
+bin/Release/helloworld.png
+
+bin/Debug/test.rtf

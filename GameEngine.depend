@@ -1,0 +1,189 @@
+# depslib dependency file v1.0
+1471559943 source:/Users/rrutter/Workspaces/CodeBlocks/GameEngine/main.c
+	<stdio.h>
+	<stdlib.h>
+	<GL/glx.h>
+	<GL/gl.h>
+	<X11/X.h>
+	<X11/keysym.h>
+
+1473028338 source:/Users/rrutter/Workspaces/CodeBlocks/GameEngine/main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	"include/PngLoader.h"
+	"GameEngine.h"
+
+1472754583 /Users/rrutter/Workspaces/CodeBlocks/GameEngine/include/PngLoader.h
+	<iostream>
+	<stdio.h>
+
+1472766382 source:/Users/rrutter/Workspaces/CodeBlocks/GameEngine/src/PngLoader.cpp
+	"../include/PngLoader.h"
+	<png.h>
+	<iostream>
+
+1472990366 source:/Users/rrutter/Workspaces/CodeBlocks/GameEngine/src/WindowHandler.cpp
+	"WindowHandler.h"
+
+1473076825 /Users/rrutter/Workspaces/CodeBlocks/GameEngine/include/WindowHandler.h
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	<OpenGL/gl.h>
+	<OpenGL/glext.h>
+	<SDL2/SDL.h>
+	"System.h"
+	<SDL2/SDL.h>
+	<GL/glu.h>
+	<GL/glext.h>
+	<GL/glx.h>
+	<GL/glxext.h>
+
+1473080363 source:/Users/rrutter/Workspaces/CodeBlocks/GameEngine/src/System.cpp
+	"System.h"
+	<SDL2/SDL.h>
+
+1472995339 /Users/rrutter/Workspaces/CodeBlocks/GameEngine/include/System.h
+	<iostream>
+	<fstream>
+	<sstream>
+
+1473075863 /Users/rrutter/Workspaces/CodeBlocks/GameEngine/include/GameEngine.h
+	"System.h"
+	"WindowHandler.h"
+
+1473081062 source:/Users/rrutter/Workspaces/CodeBlocks/GameEngine/src/GameEngine.cpp
+	"GameEngine.h"
+
+1473462923 source:c:\users\russ rutter\downloads\gameenginegl-master\gameenginegl-master\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	"include/PngLoader.h"
+	"GameEngine.h"
+
+1472754584 c:\users\russ rutter\downloads\gameenginegl-master\gameenginegl-master\include\pngloader.h
+	<iostream>
+	<stdio.h>
+
+1473122622 c:\users\russ rutter\downloads\gameenginegl-master\gameenginegl-master\include\gameengine.h
+	"System.h"
+	"WindowHandler.h"
+	"ErrorHandler.h"
+	"Canvas2D.h"
+	"GLSLHandler.h"
+
+1472995340 c:\users\russ rutter\downloads\gameenginegl-master\gameenginegl-master\include\system.h
+	<iostream>
+	<fstream>
+	<sstream>
+
+1473592204 c:\users\russ rutter\downloads\gameenginegl-master\gameenginegl-master\include\windowhandler.h
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	<SDL.h>
+	"System.h"
+	<OpenGL/gl3.h>
+	<GL/glew.h>
+
+1473589128 source:c:\users\russ rutter\downloads\gameenginegl-master\gameenginegl-master\src\pngloader.cpp
+	"../include/PngLoader.h"
+	<png.h>
+	<iostream>
+	<cstring>
+	<string>
+
+1473589165 source:c:\users\russ rutter\downloads\gameenginegl-master\gameenginegl-master\src\system.cpp
+	"System.h"
+	<SDL.h>
+
+1473205262 source:c:\users\russ rutter\downloads\gameenginegl-master\gameenginegl-master\src\windowhandler.cpp
+	"WindowHandler.h"
+
+1473203260 source:c:\users\russ rutter\downloads\gameenginegl-master\gameenginegl-master\src\gameengine.cpp
+	"GameEngine.h"
+	"ErrorHandler.h"
+
+1473122622 c:\users\russ rutter\downloads\gameenginegl-master\gameenginegl-master\include\errorhandler.h
+	<string>
+
+1473593590 c:\users\russ rutter\downloads\gameenginegl-master\gameenginegl-master\include\canvas2d.h
+	<OpenGL/gl3.h>
+	<GL/glew.h>
+
+1473592192 c:\users\russ rutter\downloads\gameenginegl-master\gameenginegl-master\include\glslhandler.h
+	<OpenGL/gl3.h>
+	<GL/glew.h>
+	<string>
+
+1473204012 source:c:\users\russ rutter\downloads\gameenginegl-master\gameenginegl-master\src\canvas2d.cpp
+	"Canvas2D.h"
+	<iostream>
+
+1473587093 source:c:\users\russ rutter\downloads\gameenginegl-master\gameenginegl-master\src\errorhandler.cpp
+	"ErrorHandler.h"
+	"SDL.h"
+	<iostream>
+
+1473197212 source:c:\users\russ rutter\downloads\gameenginegl-master\gameenginegl-master\src\glslhandler.cpp
+	"GLSLHandler.h"
+	"ErrorHandler.h"
+	<fstream>
+	<iostream>
+	<vector>
+
+1473462923 source:c:\users\russ rutter\documents\codeblocks\gameengine\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	"include/PngLoader.h"
+	"GameEngine.h"
+
+1472754584 c:\users\russ rutter\documents\codeblocks\gameengine\include\pngloader.h
+	<iostream>
+	<stdio.h>
+
+1473600865 c:\users\russ rutter\documents\codeblocks\gameengine\include\gameengine.h
+	"System.h"
+	"WindowHandler.h"
+	"ErrorHandler.h"
+	"Canvas2D.h"
+	"GLSLHandler.h"
+
+1472995340 c:\users\russ rutter\documents\codeblocks\gameengine\include\system.h
+	<iostream>
+	<fstream>
+	<sstream>
+
+1473594813 c:\users\russ rutter\documents\codeblocks\gameengine\include\windowhandler.h
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	<SDL.h>
+	"System.h"
+	<OpenGL/gl3.h>
+	<GL/glew.h>
+
+1473122622 c:\users\russ rutter\documents\codeblocks\gameengine\include\errorhandler.h
+	<string>
+
+1473594796 c:\users\russ rutter\documents\codeblocks\gameengine\include\canvas2d.h
+	<OpenGL/gl3.h>
+	<GL/glew.h>
+
+1473599309 c:\users\russ rutter\documents\codeblocks\gameengine\include\glslhandler.h
+	<OpenGL/gl3.h>
+	<GL/glew.h>
+	<string>
+
+1473600893 source:c:\users\russ rutter\documents\codeblocks\gameengine\src\canvas2d.cpp
+	"Canvas2D.h"
+	<iostream>
+
+1473587093 source:c:\users\russ rutter\documents\codeblocks\gameengine\src\errorhandler.cpp
+	"ErrorHandler.h"
+	"SDL.h"
+	<iostream>
+
