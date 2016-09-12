@@ -1,4 +1,4 @@
-#version 130
+#version 400
 //The vertex shader operates on each vertex
 
 //input data from the VBO. Each vertex is 2 floats
@@ -15,6 +15,6 @@ void main() {
     
     //Indicate that the coordinates are normalized
     gl_Position.w = 1.0;
-    
-    fragmentColor = vertexColor;
+
+fragmentColor = vertexColor;
 }

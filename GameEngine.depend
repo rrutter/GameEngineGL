@@ -178,12 +178,49 @@
 	<GL/glew.h>
 	<string>
 
-1473600893 source:c:\users\russ rutter\documents\codeblocks\gameengine\src\canvas2d.cpp
+1473679959 source:c:\users\russ rutter\documents\codeblocks\gameengine\src\canvas2d.cpp
 	"Canvas2D.h"
 	<iostream>
+	<cstddef>
+	"VertStruct.h"
 
 1473587093 source:c:\users\russ rutter\documents\codeblocks\gameengine\src\errorhandler.cpp
 	"ErrorHandler.h"
 	"SDL.h"
 	<iostream>
+
+1473640270 c:\users\russ rutter\documents\codeblocks\gameengine\include\vertstruct.h
+	<GL/glew.h>
+
+1473679166 source:c:\users\russ rutter\documents\codeblocks\gameengine\src\gameengine.cpp
+	"GameEngine.h"
+	"ErrorHandler.h"
+	"Utility.h"
+
+1473632797 c:\users\russ rutter\documents\codeblocks\gameengine\include\utility.h
+	<vector>
+	<string>
+
+1473634667 source:c:\users\russ rutter\documents\codeblocks\gameengine\src\glslhandler.cpp
+	"GLSLHandler.h"
+	"ErrorHandler.h"
+	<fstream>
+	<iostream>
+	<vector>
+
+1473589128 source:c:\users\russ rutter\documents\codeblocks\gameengine\src\pngloader.cpp
+	"../include/PngLoader.h"
+	<png.h>
+	<iostream>
+	<cstring>
+	<string>
+
+1473589165 source:c:\users\russ rutter\documents\codeblocks\gameengine\src\system.cpp
+	"System.h"
+	<SDL.h>
+
+1473633740 source:c:\users\russ rutter\documents\codeblocks\gameengine\src\utility.cpp
+	"Utility.h"
+	<iostream>
+	<fstream>
 

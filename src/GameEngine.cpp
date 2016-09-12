@@ -2,12 +2,10 @@
 #include "ErrorHandler.h"
 #include "Utility.h"
 
-GameEngine::GameEngine()
+GameEngine::GameEngine():gameState(GameState::ACTIVE)
 {
     std::cout<<"Constructed the Game engine"<<std::endl;
-
     window.registerSystem(system);
-    gameState = GameState::ACTIVE;
 }
 
 void GameEngine::killEngine()
@@ -35,7 +33,8 @@ void GameEngine::initShaders()
 {
     testGLSL.compileShaders("assets/shaders/test.vert", "assets/shaders/test.frag");
     testGLSL.addAttribute("vertexPosition");
-    //testShader = testGLSL.linkShaders();
+    testGLSL.addAttribute("vertexColor");
+    testGLSL.linkShaders();
 
 }
 

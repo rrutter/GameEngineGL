@@ -3,10 +3,25 @@
 
 #include <GL/glew.h>
 
+    struct Position
+    {
+        float x;
+        float y;
+    };
+
+    struct Color
+    {
+        GLubyte r;
+        GLubyte g;
+        GLubyte b;
+        GLubyte a;
+    };
+
 struct VertStruct
 {
-    GLubyte color[4];
-    GLubyte padding;
+    Position position;
+    Color color;
+
 };
 
 #endif // VERTSTRUCT_H_INCLUDED

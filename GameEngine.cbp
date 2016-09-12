@@ -43,6 +43,7 @@
 			<Add directory="../../../../Public/Documents/c++/SDL/lib/win32" />
 		</Compiler>
 		<Linker>
+			<Add option="-lglew32 -lSDL2main -lSDL2 -lopengl32" />
 			<Add directory="../../../../Public/Documents/c++/SDL/include" />
 		</Linker>
 		<Unit filename="include/Canvas2D.h" />
@@ -51,6 +52,8 @@
 		<Unit filename="include/GameEngine.h" />
 		<Unit filename="include/PngLoader.h" />
 		<Unit filename="include/System.h" />
+		<Unit filename="include/Utility.h" />
+		<Unit filename="include/VertStruct.h" />
 		<Unit filename="include/WindowHandler.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Canvas2D.cpp" />
@@ -59,6 +62,7 @@
 		<Unit filename="src/GameEngine.cpp" />
 		<Unit filename="src/PngLoader.cpp" />
 		<Unit filename="src/System.cpp" />
+		<Unit filename="src/Utility.cpp" />
 		<Unit filename="src/WindowHandler.cpp" />
 		<Extensions>
 			<code_completion />
