@@ -15,7 +15,7 @@ void GameEngine::killEngine()
 
 void GameEngine::doRun()
 {
-    testCanvas.build(-1.0, -1.0, 1.0, 1.0);
+    testCanvas.build(-1.0, -1.0, 1.0, 1.0, "helloworld.png");
     initShaders();
     gameLoop();
 }
@@ -32,9 +32,10 @@ void GameEngine::gameLoop()
 void GameEngine::initShaders()
 {
     testGLSL.compileShaders("assets/shaders/test.vert", "assets/shaders/test.frag");
-    testGLSL.addAttribute("vertexPosition");
-    testGLSL.addAttribute("vertexColor");
-    testGLSL.linkShaders();
+    //testGLSL.addAttribute("vertexPosition");
+    //testGLSL.addAttribute("vertexColor");
+    //testGLSL.addAttribute("vertexUV");
+    //testGLSL.linkShaders();
 
 }
 
@@ -43,20 +44,6 @@ void GameEngine::processInput()
     SDL_Event evt;
     while(SDL_PollEvent(&evt))
     {
-        //std::cout<<"poll event is :"<<evt.key.keysym.sym<<std::endl;
-        /*
-        switch(evt.key.keysym.sym)
-        {
-            //Q
-            case 113:
-            gameState = GameState::EXIT;
-            break;
-            //ESC
-            case 27:
-            gameState = GameState::EXIT;
-            break;
-        }*/
-
         switch(evt.type)
         {
             case SDL_QUIT:
@@ -64,6 +51,10 @@ void GameEngine::processInput()
                 break;
 
             case SDL_MOUSEMOTION:
+                break;
+
+            case SDL_KEYDOWN:
+                std::cout<<SDL_GetKeyName(evt.key.keysym.sym)<<std::endl;
                 break;
         }
 
@@ -75,10 +66,11 @@ void GameEngine::renderGame()
     glClearDepth(1.0);
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
-    //glUseProgram(testShader);
+    /** DO ALL RENDERING HERE **/
     testGLSL.apply();
     testCanvas.render();
     testGLSL.kill();
+    /** DO ALL RENDERING HERE END **/
 
     SDL_Delay(100);
     SDL_GL_SwapWindow(window.getSDLWindow());

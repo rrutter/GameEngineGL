@@ -1,20 +1,24 @@
 #ifndef PNGLOADER_H
 #define PNGLOADER_H
 
+#ifdef __APPLE__
+    #include <OpenGL/gl3.h>
+    #else
+    #define GLEW_STATIC
+    #define GL3_PROTOTYPES 1
+    #include <GL/glew.h>
+#endif
+
 #include <iostream>
 #include <stdio.h>
 
 class PngLoader
 {
     public:
-        PngLoader(std::string pngName);
-        std::string getName();
-        virtual ~PngLoader();
+        static GLuint load(std::string pngFile);
+        static int color_type;
     protected:
-        std::string ASSETS_DIR;
     private:
-        int load();
-        std::string name;
 };
 
 #endif // PNGLOADER_H

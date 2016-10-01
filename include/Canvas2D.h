@@ -9,11 +9,12 @@
     #include <GL/glew.h>
 #endif
 
+#include <string>
 
 class Canvas2D
 {
     public:
-        void build(float x, float y, float width, float height);
+        void build(float x, float y, float width, float height, const char* texturePath);
         Canvas2D();
         virtual ~Canvas2D();
         void render();
@@ -24,6 +25,7 @@ class Canvas2D
         float width;
         float height;
         GLuint vboID;
+        GLuint texture;
 };
 
 #endif // CANVAS2D_H

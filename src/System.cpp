@@ -1,5 +1,6 @@
 #include "System.h"
 #include <SDL.h>
+#include "Utility.h"
 
 const std::string System::ASSETS_DIRECTORY = "assets/";
 const std::string System::CONFIG_FILE = "config.cfg";
@@ -21,6 +22,7 @@ System::~System()
 
 void System::loadConfig(std::string cfgString)
 {
+
     std::ifstream inFile;
     inFile.open(cfgString);//open the input file
 

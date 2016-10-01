@@ -178,11 +178,12 @@
 	<GL/glew.h>
 	<string>
 
-1473679959 source:c:\users\russ rutter\documents\codeblocks\gameengine\src\canvas2d.cpp
+1473681210 source:c:\users\russ rutter\documents\codeblocks\gameengine\src\canvas2d.cpp
 	"Canvas2D.h"
 	<iostream>
 	<cstddef>
 	"VertStruct.h"
+	<SDL.h>
 
 1473587093 source:c:\users\russ rutter\documents\codeblocks\gameengine\src\errorhandler.cpp
 	"ErrorHandler.h"
@@ -215,12 +216,16 @@
 	<cstring>
 	<string>
 
-1473589165 source:c:\users\russ rutter\documents\codeblocks\gameengine\src\system.cpp
+1473768366 source:c:\users\russ rutter\documents\codeblocks\gameengine\src\system.cpp
 	"System.h"
 	<SDL.h>
+	"Utility.h"
 
 1473633740 source:c:\users\russ rutter\documents\codeblocks\gameengine\src\utility.cpp
 	"Utility.h"
 	<iostream>
 	<fstream>
+
+1473681244 source:c:\users\russ rutter\documents\codeblocks\gameengine\src\windowhandler.cpp
+	"WindowHandler.h"
 

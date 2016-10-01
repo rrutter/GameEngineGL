@@ -13,6 +13,7 @@
 int main(int argc, char *argv[])
 {
     //PngLoader png = PngLoader("helloworld.png");
+    //GLuint tex = PngLoader::load("helloworld.png");
     //WindowHandler win(sys);
 
     GameEngine engine;
